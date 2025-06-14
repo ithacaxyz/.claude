@@ -401,19 +401,10 @@ Usage:
 ```bash
 ./scripts/pgo-build.sh
 ```
-```
-
-#### What NOT to Do
-
-- **Don't explain the obvious** - The diff shows what changed
-- **Don't justify** - Good changes stand on their own
-- **Don't use PR templates** - No checkboxes or standard sections
-- **Don't repeat the title in the body** - Jump straight into the details
-- **Don't write essays** - This isn't documentation
 
 #### Bad vs Good Examples
 
-**Bad** (verbose, AI-sounding):
+**Bad** (too verbose, AI-sounding):
 ```
 fix: improve error handling in RPC module
 
@@ -423,15 +414,16 @@ more granular error types. By introducing these changes, we ensure that users
 receive more informative error messages, which will help with debugging.
 
 ## Changes Made
-- Added new error types for different failure scenarios
-- Updated error messages to be more descriptive
-- Added tests to verify error handling
+- 🚀 Added new error types for different failure scenarios
+- 📝 Updated error messages to be more descriptive
+- ✅ Added tests to verify error handling
 
 ## Benefits
 This will improve the developer experience by providing clearer error messages.
 ```
 
-**Sometimes Bad** (too minimal, unhelpful):
+**Bad** (too minimal, unhelpful):
+
 ```
 fix: add RPC error types
 
